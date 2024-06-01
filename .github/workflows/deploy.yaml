@@ -41,4 +41,4 @@ jobs:
             sudo docker stop main_container
             sudo docker system prune -a -f
             sudo docker pull antonburakov/module_5_ci_cd:latest
-            sudo nohup docker run --name main_container -d malyshkoa2/netology-lesson:latest
+            sudo nohup docker run --name main_container -d antonburakov/module_5_ci_cd:latest
